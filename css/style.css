@@ -1,0 +1,108 @@
+
+html, body {
+    position:absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Slider */
+/* jssor slider loading skin circles css */
+.jssorl-005-circles img {
+    -webkit-animation-name: jssorl-005-circles;
+    animation-name: jssorl-005-circles;
+    -webkit-animation-duration: 2.4s;
+    animation-duration: 2.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes jssorl-005-circles {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes jssorl-005-circles {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+.jssora053 {display:block;position:absolute;cursor:pointer;}
+.jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+.jssora053:hover {opacity:.8;}
+.jssora053.jssora053dn {opacity:.5;}
+.jssora053.jssora053ds {opacity:.3;pointer-events:none;}
+
+.hero-text {
+    font-family: 'Raleway', sans-serif;
+    color:#ffffff;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-align:center;
+    position:absolute;
+    top:370px;
+    left:800px;
+    width:830px;
+    height:158px;
+} 
+
+.hero-text h1 {
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.hero-text h2 {
+    font-size: 3.5em;
+    font-weight: 400;
+}
+
+.hero-text p {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
+/* End Slider */
+
+.header-menu a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    width: 300px;
+    height: 600px;
+}
+
+.navbar-brand > span {
+    position: relative;
+    display: block; 
+    left: 0px;
+    top: 0px;
+}
